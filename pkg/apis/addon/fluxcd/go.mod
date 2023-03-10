@@ -5,13 +5,10 @@ go 1.19
 replace sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24
 
 require (
-	github.com/chivalryq/kubevela-go-sdk v0.0.0-00010101000000-000000000000
 	github.com/oam-dev/kubevela-core-api v1.5.8
 )
 
-replace (
-	github.com/chivalryq/kubevela-go-sdk => ../../../../
-)
+replace github.com/chivalryq/kubevela-go-sdk => ../../../../
 
 require (
 	cuelang.org/go v0.5.0-alpha.1 // indirect
