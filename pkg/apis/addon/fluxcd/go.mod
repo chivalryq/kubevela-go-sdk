@@ -5,6 +5,7 @@ go 1.19
 replace sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24
 
 require (
+	github.com/chivalryq/kubevela-go-sdk v0.0.0-20230310062146-e5d4070da6b4
 	github.com/oam-dev/kubevela-core-api v1.5.8
 )
 
