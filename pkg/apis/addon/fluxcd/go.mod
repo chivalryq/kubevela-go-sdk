@@ -2,14 +2,10 @@ module github.com/chivalryq/kubevela-go-sdk/pkg/apis/addon/fluxcd
 
 go 1.19
 
-replace sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24
-
 require (
 	github.com/chivalryq/kubevela-go-sdk v0.0.0-20230310062146-e5d4070da6b4
 	github.com/oam-dev/kubevela-core-api v1.5.8
 )
-
-replace github.com/chivalryq/kubevela-go-sdk => ../../../../
 
 require (
 	cuelang.org/go v0.5.0-alpha.1 // indirect
@@ -112,3 +108,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24
