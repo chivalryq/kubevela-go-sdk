@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/chivalryq/kubevela-go-sdk/pkg/apis/common"
+	. "github.com/chivalryq/kubevela-go-sdk/pkg/apis/component/webservice"
 	apply_once "github.com/chivalryq/kubevela-go-sdk/pkg/apis/policy/apply-once"
 	initcontainer "github.com/chivalryq/kubevela-go-sdk/pkg/apis/trait/init-container"
 	"github.com/chivalryq/kubevela-go-sdk/pkg/apis/trait/resource"

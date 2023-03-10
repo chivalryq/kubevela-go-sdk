@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/chivalryq/kubevela-go-sdk/pkg/apis/common"
+	. "github.com/chivalryq/kubevela-go-sdk/pkg/apis/component/webservice"
 )
 
 func main() {
