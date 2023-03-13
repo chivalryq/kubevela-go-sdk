@@ -13,7 +13,7 @@ require (
 	sigs.k8s.io/yaml v1.3.0
 
     // for sub-module
-	github.com/chivalryq/kubevela-go-sdk v0.0.0-20230310062146-e5d4070da6b4
+	github.com/kubevela-contrib/kubevela-go-sdk v0.0.0-20230310062146-e5d4070da6b4
 )
 
 require (
@@ -116,4 +116,10 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
 
-replace sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24
+replace (
+	cuelang.org/go => github.com/kubevela/cue v0.4.4-0.20221107123854-a976b0e340be
+	github.com/docker/cli => github.com/docker/cli v20.10.9+incompatible
+	github.com/docker/docker => github.com/moby/moby v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
+	github.com/wercker/stern => github.com/oam-dev/stern v1.13.2
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24
+)

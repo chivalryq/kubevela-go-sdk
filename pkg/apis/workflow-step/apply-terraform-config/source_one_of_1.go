@@ -43,7 +43,7 @@ func NewSourceOneOf1With(remote string) *SourceOneOf1 {
 // but it doesn't guarantee that properties required by API are set
 func NewSourceOneOf1WithDefault() *SourceOneOf1 {
 	this := SourceOneOf1{}
-	var remote string = "https://github.com/chivalryq/terraform-modules.git"
+	var remote string = "https://github.com/kubevela-contrib/terraform-modules.git"
 	this.Remote = &remote
 	return &this
 }
