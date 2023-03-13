@@ -22,7 +22,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/json"
 	"sigs.k8s.io/yaml"
 
-	. "github.com/chivalryq/kubevela-go-sdk/pkg/apis"
+	. "github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis"
 
 	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
 	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"

@@ -14,7 +14,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/chivalryq/kubevela-go-sdk/pkg/apis/utils"
+	"github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis/utils"
 )
 
 // checks if the PatchItem type satisfies the MappedNullable interface at compile time

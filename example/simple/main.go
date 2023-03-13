@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/chivalryq/kubevela-go-sdk/pkg/apis/common"
-	cron_task "github.com/chivalryq/kubevela-go-sdk/pkg/apis/component/cron-task"
-	. "github.com/chivalryq/kubevela-go-sdk/pkg/apis/component/webservice"
-	"github.com/chivalryq/kubevela-go-sdk/pkg/client"
+	"github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis/common"
+	cron_task "github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis/component/cron-task"
+	. "github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis/component/webservice"
+	"github.com/kubevela-contrib/kubevela-go-sdk/pkg/client"
 )
 
 func main() {

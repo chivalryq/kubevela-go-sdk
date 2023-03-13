@@ -1,11 +1,19 @@
-module github.com/chivalryq/kubevela-go-sdk/pkg/apis/addon/fluxcd
+module github.com/kubevela/vela-go-sdk
 
 go 1.19
 
 require (
-	github.com/chivalryq/kubevela-go-sdk v0.0.0-20230310062146-e5d4070da6b4
 	github.com/oam-dev/kubevela-core-api v1.5.8
+
+	// for main module
+	github.com/pkg/errors v0.9.1 // indirect
+	k8s.io/apimachinery v0.23.6 // indirect
+	k8s.io/client-go v0.23.6 // indirect
+	sigs.k8s.io/controller-runtime v0.11.2 // indirect
+	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+require github.com/kubevela-contrib/kubevela-go-sdk v0.0.0-20230309022604-cd431bb25a9a
 
 require (
 	cuelang.org/go v0.5.0-alpha.1 // indirect
@@ -52,7 +60,6 @@ require (
 	github.com/oam-dev/terraform-controller v0.7.0 // indirect
 	github.com/onsi/gomega v1.20.2 // indirect
 	github.com/openshift/library-go v0.0.0-20220112153822-ac82336bd076 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.12.2 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.32.1 // indirect
@@ -91,9 +98,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.23.6 // indirect
-	k8s.io/apimachinery v0.23.6 // indirect
 	k8s.io/apiserver v0.23.6 // indirect
-	k8s.io/client-go v0.23.6 // indirect
 	k8s.io/component-base v0.23.6 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/klog/v2 v2.60.1 // indirect
@@ -103,10 +108,8 @@ require (
 	sigs.k8s.io/apiserver-network-proxy v0.0.30 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30 // indirect
 	sigs.k8s.io/apiserver-runtime v1.1.1 // indirect
-	sigs.k8s.io/controller-runtime v0.11.2 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
-	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.24

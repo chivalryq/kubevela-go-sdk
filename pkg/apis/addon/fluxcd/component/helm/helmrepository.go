@@ -14,7 +14,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/chivalryq/kubevela-go-sdk/pkg/apis/utils"
+	"github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis/utils"
 )
 
 // checks if the Helmrepository type satisfies the MappedNullable interface at compile time
@@ -34,10 +34,6 @@ func NewHelmrepositoryWith(provider string) *Helmrepository {
 	this := Helmrepository{}
 	this.Provider = &provider
 	return &this
-}
-
-func (o *Helmrepository) DoNothing() *Helmrepository {
-	return o
 }
 
 // NewHelmrepositoryWithDefault instantiates a new Helmrepository object
