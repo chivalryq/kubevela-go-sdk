@@ -1,4 +1,4 @@
-module github.com/kubevela/vela-go-sdk
+module github.com/kubevela-contrib/kubevela-go-sdk/pkg/apis/addon/fluxcd
 
 go 1.19
 
@@ -6,12 +6,14 @@ require (
 	github.com/oam-dev/kubevela-core-api v1.5.8
 
 	// for main module
-	github.com/pkg/erors v0.9.1
-	k8s.io/apimachinery v0.23.6
-	k8s.io/client-go v0.23.6
-	sigs.k8s.io/controller-runtime v0.11.2
-	sigs.k8s.io/yaml v1.3.0
+	github.com/pkg/errors v0.9.1 // indirect
+	k8s.io/apimachinery v0.23.6 // indirect
+	k8s.io/client-go v0.23.6 // indirect
+	sigs.k8s.io/controller-runtime v0.11.2 // indirect
+	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+require github.com/kubevela-contrib/kubevela-go-sdk v0.0.0-20230309022604-cd431bb25a9a
 
 require (
 	cuelang.org/go v0.5.0-alpha.1 // indirect
@@ -47,7 +49,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kubevela-contrib/kubevela-go-sdk v0.0.0-20230309022604-cd431bb25a9a // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -65,7 +66,6 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/spf13/cobra v1.4.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/testify v1.7.1 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.0 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.0 // indirect
 	go.etcd.io/etcd/client/v3 v3.5.0 // indirect
@@ -83,7 +83,6 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
-	golang.org/x/crypto v0.0.0-20220926161630-eccd6366d1be // indirect
 	golang.org/x/net v0.0.0-20220906165146-f3363e06e74c // indirect
 	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
@@ -99,7 +98,6 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.23.6 // indirect
-	k8s.io/apiextensions-apiserver v0.23.6 // indirect
 	k8s.io/apiserver v0.23.6 // indirect
 	k8s.io/component-base v0.23.6 // indirect
 	k8s.io/klog v1.0.0 // indirect

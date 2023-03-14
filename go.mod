@@ -11,9 +11,6 @@ require (
 	k8s.io/client-go v0.23.6
 	sigs.k8s.io/controller-runtime v0.11.2
 	sigs.k8s.io/yaml v1.3.0
-
-    // for sub-module
-	github.com/kubevela-contrib/kubevela-go-sdk v0.0.0-20230310062146-e5d4070da6b4
 )
 
 require (
